@@ -8,10 +8,8 @@ class Data:
 
 
 class Settings:
-    def __init__(self, voltage=5.0, frequency=50.0, time=1.0, pulses=10):
-        self.voltage = voltage
-        self.frequency = frequency
-        self.time = time
+    def __init__(self, leading_wave, pulses):
+        self.leading_wave = leading_wave
         self.pulses = pulses
     
 
